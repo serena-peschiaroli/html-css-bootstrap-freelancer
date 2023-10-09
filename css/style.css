@@ -43,4 +43,31 @@ header ul, li {
     background-color: var(--primary-green);
 }
 
+#portfolio {
+    padding: 2rem 0;
+}
+
+#about {
+    padding: 2rem 0;
+    background-color: var(--primary-green);
+    color: white;
+}
+
+#contact-me {
+    padding: 2rem 0;
+}
+
+#footer-top {
+    padding: 2rem 0;
+    background-color: var(--secondary-dark);
+    color: white;
+
+}
+
+#footer-bottom {
+    padding: 2rem 0;
+    background-color: var(--primary-dark-);
+    color: white;
+}
+
 
