@@ -20,6 +20,11 @@ img {
     margin: 0 auto;
 }
 
+.wrapper-s {
+    width: 60%;
+    margin: 0 auto;
+}
+
 header {
     background-color: var(--primary-dark-);
     color: white;
