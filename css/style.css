@@ -11,6 +11,8 @@
 
 }
 
+/* UTILITIES */
+
 .bg-color-pr-d {
     background-color: var(--primary-dark-);
 }
@@ -31,6 +33,31 @@ img {
     max-width: 100%;
 }
 
+.hr-star {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    line-height: 2px;
+    vertical-align: middle;
+}
+.hr-line {
+    width: 20%;
+    position: relative;
+    border-bottom: 2px solid white;
+}
+
+.hr-star i {
+    color: white;
+    position: relative;
+    top: 1px;
+}
+
+/* /UTILITIES */
+
+
+/* LAYOUT */
+
+
 .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -40,6 +67,9 @@ img {
     width: 60%;
     margin: 0 auto;
 }
+
+
+/* /LAYOUT */
 
 header {
     background-color: var(--primary-dark-);
@@ -86,5 +116,7 @@ header ul, li {
     background-color: var(--primary-dark-);
     color: white;
 }
+
+
 
 
