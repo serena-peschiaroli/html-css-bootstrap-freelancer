@@ -1,9 +1,28 @@
+:root {
+    /* palette */
+    --primary-dark-: #2C3E50;
+    --primary-green: #1ABC9C;
+    --secondary-dark: #3A546D;
+    --card-one: #BA4B63;
+    --card-two: #1EA4B6;
+    --card-three: #1C83C1;
+    --card-four: #0E38B5;
+    --card-five: #CCB2A3;
+
+}
+
 img {
     max-width: 100%;
 }
 
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
-    background-color: lightskyblue;
+    background-color: var(--primary-dark-);
+    color: white;
 }
 
 
@@ -13,4 +32,10 @@ header ul, li {
     gap: 2rem;
     
 }
+
+#hero {
+    padding: 2rem 0;
+    background-color: var(--primary-green);
+}
+
 
