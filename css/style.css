@@ -33,67 +33,13 @@ img {
     max-width: 100%;
 }
 
-.hr-star {
-    display: flex;
-
-   
-}
-
-#hero .hr-line {
-    width: 20%;
-    height: 5px;
-    color: white;
-    /* position: relative; */
-    
-}
-
-#hero hr {
-    color: white;
-    opacity: 1;
-}
-
-#hero .hr-star i {
-    color: white;
-    /* position: relative;
-    top: 1px; */
-    font-size: 1.5rem;
-}
-
-#portfolio .hr-line {
-    width: 20%;
-    height: 5px;
-    color: black;
-}
-
-#portfolio hr {
-    color: black;
-    opacity: 1;
-}
-
-#portfolio .hr-star i {
-    color: black;
-   
-    font-size: 1.5rem;
-}
 
 
-#about .hr-line {
-    width: 20%;
-    height: 5px;
-    color: white;
-   
-    
-}
 
-#about hr {
-    color: white;
-    opacity: 1;
-}
 
-#about .hr-star i {
-    color: white;
-    font-size: 1.2rem;
-}
+
+
+
 
 /* /UTILITIES */
 
@@ -111,8 +57,14 @@ img {
     margin: 0 auto;
 }
 
+.hr-star {
+    display: flex;
 
+   
+}
 /* /LAYOUT */
+
+/* HEADER */
 
 header {
     background-color: var(--primary-dark-);
@@ -133,6 +85,10 @@ header .navbar-nav a {
     color: white; 
 }
 
+/* /HEADER */
+
+/* HERO */
+
 #hero {
    
     background-color: var(--primary-green);
@@ -147,16 +103,92 @@ header .navbar-nav a {
 
 
 
+#hero .hr-line {
+    width: 20%;
+    height: 5px;
+    color: white;
+
+    
+}
+
+#hero hr {
+    color: white;
+    opacity: 1;
+}
+
+#hero .hr-star i {
+    color: white;
+    /* position: relative;
+    top: 1px; */
+    font-size: 1.5rem;
+}
+
+/* /HERO */
+
+
+/* PORTFOLIO */
+
+#portfolio .hr-line {
+    width: 20%;
+    height: 5px;
+    color: black;
+}
+
+#portfolio hr {
+    color: black;
+    opacity: 1;
+}
+
+#portfolio .hr-star i {
+    color: black;
+   
+    font-size: 1.5rem;
+}
+
+/* /PORTFOLIO */
+
+
+/* ABOUT */
+
+
+#about .hr-line {
+    width: 20%;
+    height: 5px;
+    color: white;
+   
+    
+}
+
+#about hr {
+    color: white;
+    opacity: 1;
+}
+
+#about .hr-star i {
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
 #about {
     padding: 2rem 0;
     background-color: var(--primary-green);
     color: white;
 }
 
+/* /ABOUT */
+
+
+/* CONTACT-ME */
+
 #contact-me {
     padding: 2rem 0;
 }
 
+/* /CONTACT-ME */
+
+/* FOOTER */
 #footer-top {
     padding: 2rem 0;
     background-color: var(--secondary-dark);
@@ -169,6 +201,9 @@ header .navbar-nav a {
     background-color: var(--primary-dark-);
     color: white;
 }
+
+/* /FOOTER */
+
 
 
 
