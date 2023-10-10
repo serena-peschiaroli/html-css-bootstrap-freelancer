@@ -86,13 +86,18 @@ header ul, li {
 }
 
 #hero {
-    padding: 2rem 0;
+   
     background-color: var(--primary-green);
+    padding: 2rem 0;
+    
 }
 
-#portfolio {
-    padding: 2rem 0;
+#hero img {
+    max-width: 200px;
+    ;
 }
+
+
 
 #about {
     padding: 2rem 0;
