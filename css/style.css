@@ -33,6 +33,13 @@ img {
     max-width: 100%;
 }
 
+.btm-border {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
 
 
 
@@ -187,6 +194,23 @@ header .navbar-nav a {
 }
 
 /* /CONTACT-ME */
+
+#contact-me .hr-line {
+    width: 20%;
+    height: 5px;
+    color: black;
+}
+
+#contact-me hr {
+    color: black;
+    opacity: 1;
+}
+
+#contact-me .hr-star i {
+    color: black;
+   
+    font-size: 1.5rem;
+}
 
 /* FOOTER */
 #footer-top {
