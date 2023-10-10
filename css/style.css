@@ -35,15 +35,21 @@ img {
 
 .hr-star {
     display: flex;
-    justify-content: center;
-    margin: 15px;
-    line-height: 2px;
-    vertical-align: middle;
+
+   
 }
 .hr-line {
     width: 20%;
+    height: 5px;
+    color: white;
     position: relative;
-    border-bottom: 2px solid white;
+    
+    line-height: 5px;
+}
+
+#hero hr {
+    color: white;
+    opacity: 1;
 }
 
 .hr-star i {
@@ -82,7 +88,12 @@ header ul, li {
     list-style-type: none;
     display: flex;
     gap: 2rem;
+    color:white;
     
+}
+
+header .navbar-nav a {
+    color: white; 
 }
 
 #hero {
