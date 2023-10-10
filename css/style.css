@@ -38,13 +38,13 @@ img {
 
    
 }
-.hr-line {
+
+#hero .hr-line {
     width: 20%;
     height: 5px;
     color: white;
-    position: relative;
+    /* position: relative; */
     
-    line-height: 5px;
 }
 
 #hero hr {
@@ -52,10 +52,47 @@ img {
     opacity: 1;
 }
 
-.hr-star i {
+#hero .hr-star i {
     color: white;
-    position: relative;
-    top: 1px;
+    /* position: relative;
+    top: 1px; */
+    font-size: 1.5rem;
+}
+
+#portfolio .hr-line {
+    width: 20%;
+    height: 5px;
+    color: black;
+}
+
+#portfolio hr {
+    color: black;
+    opacity: 1;
+}
+
+#portfolio .hr-star i {
+    color: black;
+   
+    font-size: 1.5rem;
+}
+
+
+#about .hr-line {
+    width: 20%;
+    height: 5px;
+    color: white;
+   
+    
+}
+
+#about hr {
+    color: white;
+    opacity: 1;
+}
+
+#about .hr-star i {
+    color: white;
+    font-size: 1.2rem;
 }
 
 /* /UTILITIES */
