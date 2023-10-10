@@ -220,6 +220,16 @@ header .navbar-nav a {
 
 }
 
+#footer-top i {
+    color: white;
+    font-size: 2rem;
+}
+
+#footer-top .green-link {
+    color: var(--primary-green);
+
+}
+
 #footer-bottom {
     padding: 2rem 0;
     background-color: var(--primary-dark-);
@@ -227,6 +237,8 @@ header .navbar-nav a {
 }
 
 /* /FOOTER */
+
+
 
 
 
